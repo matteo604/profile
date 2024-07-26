@@ -1,0 +1,111 @@
+
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    background-color: brown;
+  }
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    background-color: #333;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    background-color: #357ab8;
+  }
+}
+
+.container {
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1,h2,h3 {
+  color: aqua;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: normal;
+}
+
+a {
+  color: blue;
+  text-decoration: overline;
+}
+
+a:hover {
+  background-color: lightblue;
+  color: black;
+}
+
+.img-circle {
+  border-radius: 50%;
+  margin: 20px 0;
+  border-radius: 50%;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #4a90e2;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.card-white {
+  padding: 60px;
+  border-top-right-radius: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #357ab8;
+}
+
+.social-icon {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #4a90e2;
+}
+
+.profile-card {
+  margin-bottom: 20px;
+}
+
+.splitter {
+  width: 100%;
+  height: 10px;
+  background-color: #e0e0e0;
+  margin: 0 auto;
+  opacity: 50%;
+}
